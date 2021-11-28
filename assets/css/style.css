@@ -1,6 +1,6 @@
 /* Applies to the whole page*/
 * {
-    box-sizing: border-box; /* Boxes will be the default size and add padding etc on after*/
+    box-sizing: border-box; /* Boxes will be the defined size and add padding, margins and borders on after*/
     padding: 0; /*all items will have 0 padding by default*/ 
     margin: 0; /*all items will have 0 margin by default */
 }
@@ -12,7 +12,7 @@ body {
 /*Applies to the Header class*/
 .header {
     padding: 20px; /* Padding of 20px is added*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font will show based if it works with the browser or not. Starting left to right.*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font will show based on if it works with the browser or not. Starting left to right.*/
     background-color: #2a607c; /* Background Color is cyan*/
     color: #ffffff; /* Color is white */
 }
@@ -30,7 +30,7 @@ and all of the seo class*/
 .header div {
     padding-top: 15px; /* makes padding 15px*/
     margin-right: 20px; /*margin on the right is 20px */
-    float: right; /* the items will float to the right */
+    float: right; /* all items will prefer to be on the right side*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* deines the font family*/
     font-size: 20px; /* font will be 20px */
 }
@@ -47,7 +47,7 @@ and all of the seo class*/
 /*Applies to all links*/
 a {
     color: #ffffff; /* color will be whit */
-    text-decoration: none; /* text decoration is default */
+    text-decoration: none; /* text decoration is resert to default*/
 }
 /*Applies to all paragraphs*/
 p {
@@ -76,7 +76,7 @@ p {
     margin-bottom: 20px; /* adds a *margin to the bottom of 20px*/
     padding: 50px; /* Adds padding of 50px*/
     height: 300px; /* Height is 300px*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Defines which font family to use. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Font will show based on if it works with the browser or not. Starting left to right. */
     background-color: #0072bb; /*Makes The Background cyan */
     color: #ffffff; /* Makes the color white*/
 }
@@ -91,12 +91,12 @@ p {
 }
 /* Applies to all elements with the l class within the Content class*/
 .content .l {
-    float: left; /* all items will be pushed to the left side*/
+    float: left; /* all items will prefer to be on the left side*/
     margin-right: 25px; /* adds a margin on the right that's 25px*/
 }
 /*Applies to all elements with the r class within the Content Class*/
 .content .r{
-    float: right; /* all items will be pushed to the right side*/
+    float: right; /* all items will prefer to be on the right side*/
     margin-left: 25px; /*adds a margin to the left that's 25px*/
 }
 /* End of the Content Section*/
@@ -106,7 +106,7 @@ p {
     margin-right: 20px; /* adds a mrgin to the right side that is 20px */
     padding: 20px; /* adds padding that is 20px */
     clear: both; /* content is pushed below both float right and left */
-    float: right; /* content is pushed to the right */
+    float: right; /*  all items will prefer to be on the right side */
     width: 20%;/* width is 20% */
     height: 100%;/* height is 80%*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Defines the Font Family */
@@ -134,7 +134,7 @@ p {
 .footer {
     padding: 30px; /* Padding is 30px */
     clear: both; /* is below both float right and float left*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* defines the font family we want to use*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Font will show based on if it works with the browser or not. Starting left to right.*/
     text-align: center; /*  aligns all text to center */
 }
 /* Applies too all the h2 elements in the footer section*/
