@@ -36,7 +36,7 @@ and all of the seo class*/
 }
 /*Applies to all unordered list in the divs that have the header class*/
 .header div ul {
-    list-style-type: none; /* no item marker is shown*/
+    list-style-type: none; /* no list marker is shown*/
 }
 /*Applies to all the list items within unordered lists within divs with the header class*/
 .header div ul li {
@@ -44,7 +44,7 @@ and all of the seo class*/
     margin-left: 25px; /* Applues a margin to the left side with 25px */
 }
 /*End of Header Section*/
-/*Applies to all linkes*/
+/*Applies to all links*/
 a {
     color: #ffffff; /* color will be whit */
     text-decoration: none; /* text decoration is default */
@@ -53,7 +53,7 @@ a {
 p {
     font-size: 16px; /* font is 16px */
 }
-/* Hero Section */
+/*Beginning of Hero Section */
 /*Applies to all within the hero class*/
 .hero {
     height: 800px; /* Height is 800px */
@@ -61,7 +61,7 @@ p {
     margin-bottom: 25px; /* adds a margin of 25px */
     background-image: url("../images/digital-marketing-meeting.jpg"); /* adds a picture to the background*/
     background-size: cover; /* makes the background image cover the whole area*/
-    background-position: center;/* Will center the position */
+    background-position: center;/* Will center the background position */
 }
 /* End of hero Section*/
 /* Begining of content section*/
@@ -108,7 +108,7 @@ p {
     clear: both; /* content is pushed below both float right and left */
     float: right; /* content is pushed to the right */
     width: 20%;/* width is 20% */
-    height: 100%;/* height is 100%*/
+    height: 100%;/* height is 80%*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Defines the Font Family */
     background-color: #2589bd; /* background color is cyan */
 }
