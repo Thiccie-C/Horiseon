@@ -129,6 +129,7 @@ p {
     max-width: 150px; /* deines the max width as 150px*/
 }
 /* End of Benifits Section*/
+/*Beginning of Footer Section*/
 /* applies to all the foot class*/
 .footer {
     padding: 30px; /* Padding is 30px */
@@ -140,3 +141,4 @@ p {
 .footer h2 {
     font-size: 20px; /* font size is 20px */
 }
+/*end of footser section*/
