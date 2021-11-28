@@ -56,8 +56,8 @@ p {
 /*Beginning of Hero Section */
 /*Applies to all within the hero class*/
 .hero {
-    height: 800px; /* Height is 800px */
-    width: 100%; /* width is 100% */
+    height: 800px; /* Height is 800px of its given space*/
+    width: 100%; /* width is 100%  of its given space*/
     margin-bottom: 25px; /* adds a margin of 25px */
     background-image: url("../images/digital-marketing-meeting.jpg"); /* adds a picture to the background*/
     background-size: cover; /* makes the background image cover the whole area*/
@@ -67,7 +67,7 @@ p {
 /* Begining of content section*/
 /* Applies to all with the content class*/
 .content {
-    width: 75%; /* the width is 75%*/
+    width: 75%; /* the width is 75% of it's given space*/
     display: inline-block;/* items will be displayed horizontally*/
     margin-left: 20px;/*adds a 20px margin to the left*/
 }
@@ -107,8 +107,8 @@ p {
     padding: 20px; /* adds padding that is 20px */
     clear: both; /* content is pushed below both float right and left */
     float: right; /*  all items will prefer to be on the right side */
-    width: 20%;/* width is 20% */
-    height: 100%;/* height is 80%*/
+    width: 20%;/* width is 20% of the given space */
+    height: 100%;/* height is the 100% of the given space*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Defines the Font Family */
     background-color: #2589bd; /* background color is cyan */
 }
